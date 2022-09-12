@@ -5,11 +5,13 @@
 
   
 
-URL shortener using Firebase
+This app uses :
+1. Provider
+2. Firebase Dynamic Link API
 
   
 
 ## Getting Started
 
- 
+
 To get the key and how to use Read more at https://firebase.google.com/docs/dynamic-links/rest
