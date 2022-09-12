@@ -61,14 +61,10 @@ class UrlShortenerState extends ChangeNotifier {
     );
 
     if (result.statusCode == 200) {
-      print("Success");
-
       final response = shortUrlResultFromJson(result.body);
 
       return response.shortLink;
     } else {
-      print("failed");
-      print(result.body);
       return "";
     }
   }
